@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.divide {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+  }
+
+  img{
+    width: 100%;
+    height: 99%;
+
+  }
+
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .res-font{
+    font-size: 26px;
+  }
+
+  .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .login{
+    padding: 10px;
+  }
+
+  .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+  }
+
+  .content{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .field input[type="submit"]{
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:rgb(19, 194, 63) ;
+  }
+
+  form .pass-link a{
+    color: #4158d0;
+    text-decoration: none;
+  }
+
+  .G-sign{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 2px;
+  }
+
+  .foot{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .f-content{
+    color: rgb(121, 121, 96);
+  }
+
+
+  @media only screen and (max-width: 740px) {
+
+    .field input{
+      height: 100%;
+      width: 100%;
+      outline: none;
+      font-size: 13px;
+      padding-left: 13px;
+      border: 1px solid lightgrey;
+      border-radius: 15px;
+    }
+
+    .G-sign{
+      border-radius: 15px;
+    }
+
+    .res-font{
+      font-size: 20px;
+    }
+
+    .field {
+      height: 32px;
+      width: 90%;
+    }
+
+    .checkbox{
+      display:none;
+    }
+
+  }
+  
+  
